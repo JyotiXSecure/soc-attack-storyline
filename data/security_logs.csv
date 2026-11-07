@@ -1,0 +1,26 @@
+timestamp,source_ip,destination_ip,username,hostname,event_type,event_id,process,command,domain,destination_port,file_name,file_path,action,status,bytes
+2026-01-15 08:01:00,10.0.0.21,10.0.0.10,asmith,WS-ASMITH,AUTH_SUCCESS,EVT-0001,winlogon.exe,,corp.example,445,,,login,success,0
+2026-01-15 08:15:00,10.0.0.21,10.0.0.10,asmith,WS-ASMITH,AUTH_FAILURE,EVT-0002,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 09:00:00,10.0.0.22,10.0.0.10,bjones,WS-BJONES,AUTH_SUCCESS,EVT-0003,winlogon.exe,,corp.example,445,,,login,success,0
+2026-01-15 10:00:00,10.0.0.50,10.0.0.10,jdoe,WS-JDOE,AUTH_FAILURE,EVT-1001,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 10:01:00,10.0.0.50,10.0.0.10,jdoe,WS-JDOE,AUTH_FAILURE,EVT-1002,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 10:02:00,10.0.0.50,10.0.0.10,jdoe,WS-JDOE,AUTH_FAILURE,EVT-1003,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 10:03:00,10.0.0.50,10.0.0.10,jdoe,WS-JDOE,AUTH_FAILURE,EVT-1004,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 10:04:00,10.0.0.50,10.0.0.10,jdoe,WS-JDOE,AUTH_FAILURE,EVT-1005,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 10:04:30,10.0.0.50,10.0.0.10,jdoe,WS-JDOE,AUTH_SUCCESS,EVT-1006,winlogon.exe,,corp.example,445,,,login,success,0
+2026-01-15 11:00:00,10.0.0.60,10.0.0.10,klee,WS-KLEE,AUTH_FAILURE,EVT-2001,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 11:10:00,10.0.0.60,10.0.0.10,klee,WS-KLEE,AUTH_FAILURE,EVT-2002,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 11:20:00,10.0.0.60,10.0.0.10,klee,WS-KLEE,AUTH_FAILURE,EVT-2003,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 11:30:00,10.0.0.60,10.0.0.10,klee,WS-KLEE,AUTH_FAILURE,EVT-2004,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 11:40:00,10.0.0.60,10.0.0.10,klee,WS-KLEE,AUTH_FAILURE,EVT-2005,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 12:00:00,10.0.0.70,10.0.0.10,npatel,WS-NPATEL,PROCESS_START,EVT-3001,explorer.exe,explorer.exe,corp.example,,,,start,success,0
+2026-01-15 12:05:00,10.0.0.80,10.0.0.10,guest,WS-LAB,AUTH_FAILURE,EVT-4001,sshd,,lab.example,22,,,login,failure,0
+2026-01-15 12:06:00,10.0.0.81,10.0.0.10,guest,WS-LAB,AUTH_FAILURE,EVT-4002,sshd,,lab.example,22,,,login,failure,0
+2026-01-15 12:07:00,10.0.0.82,10.0.0.10,guest,WS-LAB,AUTH_FAILURE,EVT-4003,sshd,,lab.example,22,,,login,failure,0
+2026-01-15 12:08:00,10.0.0.83,10.0.0.10,guest,WS-LAB,AUTH_FAILURE,EVT-4004,sshd,,lab.example,22,,,login,failure,0
+2026-01-15 12:09:00,10.0.0.84,10.0.0.10,guest,WS-LAB,AUTH_FAILURE,EVT-4005,sshd,,lab.example,22,,,login,failure,0
+2026-01-15 13:00:00,10.0.0.90,10.0.0.10,alice,WS-SHARED,AUTH_FAILURE,EVT-5001,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 13:01:00,10.0.0.90,10.0.0.10,bob,WS-SHARED,AUTH_FAILURE,EVT-5002,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 13:02:00,10.0.0.90,10.0.0.10,carol,WS-SHARED,AUTH_FAILURE,EVT-5003,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 13:03:00,10.0.0.90,10.0.0.10,dave,WS-SHARED,AUTH_FAILURE,EVT-5004,winlogon.exe,,corp.example,445,,,login,failure,0
+2026-01-15 13:04:00,10.0.0.90,10.0.0.10,erin,WS-SHARED,AUTH_FAILURE,EVT-5005,winlogon.exe,,corp.example,445,,,login,failure,0
